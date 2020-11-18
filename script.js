@@ -135,8 +135,9 @@ function chooseRandomCategory (categories) {
 
   // return category object with that randomArrayIndex
   return categories[randomArrayIndex];
+  console.log(randomArrayIndex);
 }
-console.log(randomArrayIndex);
+
 
 
 // Load the menu categories view
